@@ -20,7 +20,7 @@ a.nav-active {color: #FF0F00;}
 main { padding: 0 20px; max-width: 1500px; margin: auto; margin-top: 50px;}
 .main-intro {display: grid; column-gap: 50px; row-gap: 50px; align-items: start; grid-template-columns: minmax(300px, 600px) minmax(500px, auto); grid-template-rows: 1fr; margin-bottom: 80px; line-height: 1.5em; text-align: justify;}
 .main-intro p {margin: 0 10px 10px; }
-.main-intro img {box-shadow: 5px 5px 15px #DFDFDF; border-radius: 10px; width: 100%; max-width: 600px; margin: auto; margin-top: 0;  }
+.main-intro img {box-shadow: 5px 5px 15px #DFDFDF; border-radius: 10px; width: 100%; max-width: 600px; margin: auto; margin-top: 0; background-color: black; }
 .main-intro blockquote p {padding: 0;}
 .main-intro figure {padding: 0 20px 0 40px; font-style: italic;}
 
