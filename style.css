@@ -9,8 +9,8 @@ header h1 span {color: #FF0F00; font-size: 1.2em; line-height: 1.5em; letter-spa
 a, a i {color: #FF6157; text-decoration: none; font-size: 1em;}
 a:hover {text-decoration: underline;}
 
-.main-nav {display: flex; justify-content: space-evenly; gap: 20px; column-gap: 20px;  flex-wrap: wrap; border-bottom: 2px solid #FF0F00; border-top: 2px solid #FF0F00; padding: 10px; word-spacing: -0.2em;}
-.main-nav a {color: #fff; text-decoration: none; max-width: 200px; text-align: center; display: block;}
+.main-nav {display: flex; justify-content: space-evenly;  flex-wrap: wrap; border-bottom: 2px solid #FF0F00; border-top: 2px solid #FF0F00; padding: 10px; word-spacing: -0.2em;}
+.main-nav a {color: #fff; text-decoration: none; max-width: 200px; text-align: center; display: block; margin: 5px 20px;}
 .main-nav a:hover {color: #ffcca4;}
 a.nav-active {color: #FF0F00;}
 
@@ -48,7 +48,6 @@ img.monia {width: 180px;  }
 .disc {margin-bottom: 50px;}
 .disc a {display: block; line-height: 1.5em; }
 .disc p {padding-bottom: 20px;}
-
  .audio-file p {padding-bottom: 5px;}
  .audio-file audio {margin-bottom: 20px; width: 100%; max-width: 800px; background-color: #525252; border-radius: 10px;}
 
