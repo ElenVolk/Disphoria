@@ -3,14 +3,14 @@ body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
 h2 {text-align: center; color: #FF0F00; font-weight: normal; padding-bottom: 30px;}
 
 /*HEADER*/
-header {padding-top: 20px;}
+header {padding-top: 20px; }
 header h1 {text-align: center; margin-bottom: 20px;  font-variant: small-caps; font-weight: normal; font-size: 2em; font-family: Neucha;}
 header h1 span {color: #FF0F00; font-size: 1.2em; line-height: 1.5em; letter-spacing: 0.2em;}
-a, a i {color: #FF6157; text-decoration: none;}
+a, a i {color: #FF6157; text-decoration: none; font-size: 1em;}
 a:hover {text-decoration: underline;}
 
-.main-nav {display: flex; justify-content: space-evenly; gap: 20px;  flex-wrap: wrap; border-bottom: 2px solid #FF0F00; border-top: 2px solid #FF0F00; padding: 10px; word-spacing: -0.2em;}
-.main-nav a {color: #fff; text-decoration: none; max-width: 200px; text-align: center;}
+.main-nav {display: flex; justify-content: space-evenly; gap: 20px; column-gap: 20px;  flex-wrap: wrap; border-bottom: 2px solid #FF0F00; border-top: 2px solid #FF0F00; padding: 10px; word-spacing: -0.2em;}
+.main-nav a {color: #fff; text-decoration: none; max-width: 200px; text-align: center; display: block;}
 .main-nav a:hover {color: #ffcca4;}
 a.nav-active {color: #FF0F00;}
 
@@ -18,7 +18,7 @@ a.nav-active {color: #FF0F00;}
 
 /*MAIN*/
 main { padding: 0 20px; max-width: 1500px; margin: auto; margin-top: 50px;}
-.main-intro {display: grid; column-gap: 50px; row-gap: 50px; align-items: start; grid-template-columns: minmax(300px, 600px) minmax(500px, auto); grid-template-rows: 1fr; margin-bottom: 80px; line-height: 1.5em; text-align: justify;}
+.main-intro {display: grid; column-gap: 50px; row-gap: 50px; align-items: start; grid-template-columns: minmax(300px, 600px) minmax(500px, auto); grid-template-rows: 1fr; margin-bottom: 80px; line-height: 1.5em;}
 .main-intro p {margin: 0 10px 10px; }
 .main-intro img {box-shadow: 5px 5px 15px #DFDFDF; border-radius: 10px; width: 100%; max-width: 600px; margin: auto; margin-top: 0; background-color: black; }
 .main-intro blockquote p {padding: 0;}
@@ -87,6 +87,7 @@ img.monia {width: 180px;  }
 .video {margin-bottom: 50PX;}
 .youtube {display: flex; justify-content: center; margin: auto; margin-bottom: 30px; margin-top: 30px; flex-shrink: 2;  }
 .youtube {max-width: 853px; max-height: 480px;}
+.video-block p {text-align: center;}
 .video-block {margin-bottom: 50px;}
 .video-block p:last-of-type {margin-bottom: 0;}
 .video-block video:last-child {margin-bottom: 0;}
