@@ -15,7 +15,7 @@ a:hover {text-decoration: underline;}
 a.nav-active {color: #FF0F00;}
 
 .extra-nav {padding: 20px 20px 0 20px; display: flex; justify-content: center; font-variant: small-caps;}
-.extra-nav a {margin-left: 20px; margin-right: 20px;}
+.extra-nav a {margin-left: 10px; margin-right: 10px;}
 
 @media (max-width: 740px) {header h1 {font-size: 1.5em;}}
 
