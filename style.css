@@ -63,7 +63,6 @@ img.monia {width: 300px; }
 .afisha h3 {text-align: center; margin-bottom: 30px; font-variant: small-caps; font-weight: normal; color: #FF0F00;}
 .afisha-img { max-width: 500px;  min-width: 300px; flex-basis: 30%; margin-right: 30px;}
 .afisha-img img {width: 100%;}
-.afisha-img:hover{transform: scale(1.5);  transition: 1.5s; cursor: zoom-in;}
 .afisha p {margin-bottom: 10px;}
 .afisha li {list-style: circle; padding-bottom: 5px;}
 .afisha ul {margin-top: 10px; margin-bottom: 10px;}
