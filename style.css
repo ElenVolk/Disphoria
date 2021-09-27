@@ -89,8 +89,8 @@ img.monia {width: 180px;  }
 .video h3 {text-align: center;  color: #FF0F00;}
 .video-block p {margin-bottom: 20px;}
 .video {margin-bottom: 50PX;}
-.youtube {display: flex; justify-content: center; margin: auto; margin-bottom: 30px; margin-top: 30px; flex-shrink: 2;  }
-.youtube {max-width: 853px; max-height: 480px;}
+.youtube {display: flex; justify-content: center; margin: auto; margin-bottom: 30px; margin-top: 30px; flex-shrink: 2; max-width: 853px; max-height: 480px; min-width: 320px; }
+
 .video-block p {text-align: center;}
 .video-block {margin-bottom: 50px;}
 .video-block p:last-of-type {margin-bottom: 0;}
