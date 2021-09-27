@@ -71,7 +71,6 @@ img.monia {width: 300px; }
 .afisha p:last-of-type {line-height: 1.5em; margin-top: 20px; }
 .concert {margin-bottom: 50px; box-shadow: 2px 2px 5px #000; padding: 20px 10px; border-radius: 10px;}
 .archive-old img {max-width: 350px;}
-.archive-old img:hover {transform: scale(1.5);  transition: 1.5s; cursor: zoom-in;}
 
 @media (max-width: 1100px) {
     .afisha-text {width: 100%; } .afisha-img {margin-bottom: 20px; margin-right: 0;}
