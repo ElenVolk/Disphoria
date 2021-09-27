@@ -4,8 +4,8 @@ h2 {text-align: center; color: #FF0F00; font-weight: normal; padding-bottom: 30p
 
 /*HEADER*/
 header {padding-top: 20px; }
-header h1 {text-align: center; margin-bottom: 20px;  font-variant: small-caps; font-weight: normal; font-size: 2em; font-family: Neucha;}
-header h1 span {color: #FF0F00; font-size: 1.2em; line-height: 1.5em; letter-spacing: 0.2em;}
+header h1 {text-align: center; margin-bottom: 20px;  font-variant: small-caps; font-weight: normal; font-size: 2em; font-family: Neucha; padding: 0 10px;}
+header h1 span {color: #FF0F00; font-size: 1.2em; letter-spacing: 0.1em; }
 a, a i {color: #FF6157; text-decoration: none; font-size: 1em;}
 a:hover {text-decoration: underline;}
 
@@ -14,7 +14,10 @@ a:hover {text-decoration: underline;}
 .main-nav a:hover {color: #ffcca4;}
 a.nav-active {color: #FF0F00;}
 
-.extra-nav {padding: 20px 20px 0 20px; display: flex; gap: 40px; justify-content: center; font-variant: small-caps;}
+.extra-nav {padding: 20px 20px 0 20px; display: flex; justify-content: center; font-variant: small-caps;}
+.extra-nav a {margin-left: 20px; margin-right: 20px;}
+
+@media (max-width: 740px) {header h1 {font-size: 1.5em;}}
 
 /*MAIN*/
 main { padding: 0 20px; max-width: 1500px; margin: auto; margin-top: 50px;}
@@ -49,15 +52,15 @@ img.monia {width: 180px;  }
 .disc a {display: block; line-height: 1.5em; }
 .disc p {padding-bottom: 20px;}
  .audio-file p {padding-bottom: 5px;}
- .audio-file audio {margin-bottom: 20px; width: 100%; max-width: 800px; background-color: #525252; border-radius: 10px;}
+ .audio-file audio {margin-bottom: 20px; width: 100%; max-width: 800px; background-color: #525252; border-radius: 25px;}
 
 
 .afisha {margin-bottom: 80px;}
-.afisha-flex {display: flex; gap: 30px; justify-content: space-evenly; flex-wrap: wrap; }
+.afisha-flex {display: flex; justify-content: space-evenly; flex-wrap: wrap; }
 .afisha-text {width: 60%; }
 .afisha h2 {color: #dfdfdf;}
 .afisha h3 {text-align: center; margin-bottom: 30px; font-variant: small-caps; font-weight: normal; color: #FF0F00;}
-.afisha-img { max-width: 500px;  min-width: 360px; flex-basis: 30%;}
+.afisha-img { max-width: 500px;  min-width: 360px; flex-basis: 30%; margin-right: 30px;}
 .afisha-img img {width: 100%;}
 .afisha p {margin-bottom: 10px;}
 .afisha li {list-style: circle; padding-bottom: 5px;}
@@ -65,10 +68,12 @@ img.monia {width: 180px;  }
 .afisha span {color: #FF0F00; font-size: 1.2em;}
 .afisha p:last-of-type {line-height: 1.5em; margin-top: 20px; }
 .concert {margin-bottom: 50px; box-shadow: 2px 2px 5px #000; padding: 20px 10px; border-radius: 10px;}
+.archive-old img {max-width: 350px;}
 
 @media (max-width: 1100px) {
-    .afisha-text {width: 100%;}
+    .afisha-text {width: 100%; } .afisha-img {margin-bottom: 20px; margin-right: 0;}
 }
+
 
 
 .left {float: left;}
